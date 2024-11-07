@@ -1,0 +1,68 @@
+.board-c{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;padding: 1rem;
+    height: 100vh;
+    margin-top: 2.5cm;
+}
+
+.board-c>:nth-child(1){
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.react-kanban-board{
+    color: var(--grey);
+}
+
+.react-kanban-board>:nth-child(1){
+    width: 100%;
+}
+
+.react-kanban-board>:nth-child(1)>div{
+    width: 24%;
+}
+
+.react-kanban-column{
+    background-color: var(--transparent-black);
+    border-radius: 8px;
+}
+
+.react-kanban-column>:nth-child(2)>div>div{
+    width: 100%;
+}
+
+.kb-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background:var(--transparent-black);
+    padding: 1rem;
+    gap: 1.5rem;
+    margin-top: 1.2rem;
+    border-radius: 5px;
+}
+
+.kb-card>:nth-child(1){
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rem-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.col-head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px;
+}
+
+.col-head>svg{
+    cursor: pointer;
+}

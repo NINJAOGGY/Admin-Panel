@@ -1,0 +1,19 @@
+.table-con{
+    padding: 3rem 5rem;
+}
+
+.table-con>:nth-child(1){
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+
+.MuiTableRow-root, .MuiTableCell-root{
+    border: none !important;
+}
+
+.MuiPaper-root{
+    margin-top: 2.5cm;
+    height: 100vh;
+    margin-right: 1cm;
+    margin-left: 1cm;
+}
