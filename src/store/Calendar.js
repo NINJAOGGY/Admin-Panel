@@ -1,9 +1,9 @@
-import { create } from "zustand";
-import {INITIAL_EVENTS} from "../data/index";
+// src/store/Calendar.js
+import { create } from 'zustand';
 
-const useCalendar = create((set)=> ({
-    currentEvents: INITIAL_EVENTS,
-    setCurrentEvents: (events)=>set({currentEvents:events})
-}))
+const useCalendar = create((set) => ({
+  currentEvents: [],
+  setCurrentEvents: (events) => set({ currentEvents: events }),
+}));
 
-export default useCalendar
+export default useCalendar;
